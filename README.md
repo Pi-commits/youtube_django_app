@@ -14,10 +14,11 @@
 
 
 # Youtube API settings in settings.py file
-YOUTUBE_API_KEY = "{API_KEY}"
-REPEAT_FREQUENCY = 30
-MAX_RESULTS = 25
-PAGINATOR_SIZE = 10
+
+ YOUTUBE_API_KEY = "{API_KEY}"
+ REPEAT_FREQUENCY = 30
+ MAX_RESULTS = 25
+ PAGINATOR_SIZE = 10
 
 
 (In case the api key has expired or reached its daily quota, refresh the api key from new account in settings.py file)
